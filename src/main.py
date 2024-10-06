@@ -3,7 +3,7 @@ from termcolor import colored
 import time
 import os
 
-def welcome_bonito():
+def main():
     # Limpiamos la terminal para un efecto más limpio
     os.system('cls' if os.name == 'nt' else 'clear')
     
@@ -28,4 +28,4 @@ def welcome_bonito():
 
 # Llamamos a la función para que imprima el mensaje bonito
 if __name__ == "__main__":
-    welcome_bonito()
+    main()
